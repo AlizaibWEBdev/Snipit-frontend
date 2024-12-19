@@ -1,0 +1,97 @@
+
+header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  
+  background:  hsl(231, 11%, 16%) ;
+  backdrop-filter: blur(4px); 
+  -webkit-backdrop-filter: blur(10px); 
+
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+
+header a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header a:hover {
+  color: #0073ff;
+}
+
+
+header .profile{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+header .img{
+  background-color: #059960;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  top: 60px;
+  width: 220px;
+  right: 20px;
+  background-color: hsl(232, 17%, 26%);
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 0px 100px 20px rgba(0, 0, 0, 0.116);
+  z-index: 1000;
+}
+
+.popup ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+}
+
+.popup ul li {
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 5px;
+ color: white;
+ background-color: hsla(228, 10%, 10%, 0.356);
+ border-radius: 5px;
+ display: flex;
+ align-items: center;
+ justify-content:space-between;
+}
+
+.popup ul li:hover{
+  background-color: hsl(228, 10%, 10%);
+}
+
+.popup ul li:nth-child(2):hover{
+  background-color: hsla(357, 100%, 50%, 0.767);
+}
+
+
+

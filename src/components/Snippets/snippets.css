@@ -1,0 +1,73 @@
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+   
+}
+
+
+  
+  /* Modern Search Box */
+  .search-container {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .modern-search {
+      width: 90%;
+      max-width: 800px;
+      padding: 1rem 1.5rem;
+      border: none;
+      border-radius: 40px;
+      
+    background-color: #2a2d3a;
+    color: #e2e8f0;
+    font-size: 1rem;
+   
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .modern-search:focus {
+    background-color: #333647;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Hashtag Filters */
+  .hashtags-container {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .hashtag {
+    background-color: #2a2d3a;
+    color: #b4c0e0;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 0.9rem;
+  }
+  
+  .hashtag:hover {
+    background-color: #454a63;
+    color: #f8fafc;
+  }
+  
+  .hashtag.active {
+    background-color: #4f5dff;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  

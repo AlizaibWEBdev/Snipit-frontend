@@ -1,0 +1,194 @@
+.form{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color:  hsl(231, 11%, 12%) ;
+    padding: 0px;   
+
+}
+.form .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ padding: 10px;
+    background-color:   hsl(231, 11%, 12%) ; /* Dark background color */
+    color: white;
+  }
+  
+  .form  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .form  .close button {
+  padding: 8px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 39px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .close button:hover {
+    color: #ff5733; /* Change color on hover */
+    background-color: rgba(255, 87, 51, 0.2); /* Light background on hover */
+    
+  }
+  
+  /* Font Awesome Icon Styles */
+  .form  .fa {
+    font-size: 22px;
+  }
+
+.canvas{
+    width: 100vw;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 5px;
+   min-height: 83vh;
+   margin-left: 200px;
+   background-color: hsl(231, 11%, 16%);
+   overflow-y: auto;
+  
+}
+.canvas textarea.title {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+    color: white;
+    font-size: 2.5rem;
+    font-weight:  800;
+    
+    overflow: hidden; /* Hides scrollbar */
+  }
+
+@media only screen and (max-width:1000px) {
+    .canvas{
+        margin-left: 0px;
+    }
+}
+
+.form .description{
+  width: 100%;
+    background-color:hsl(231, 11%, 10%);
+    padding: 10px;
+    border: none;
+    resize: none;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    min-height: 100px;
+    overflow: hidden; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-code{
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(231, 11%, 5%);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.form select {
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(231, 11%, 5%);
+color: white;
+width: 110px;
+padding: 0px;
+}
+.form .lang{
+  font-size: 25px;
+}
+.form textarea.text{
+  width: 100%;
+  padding: 10px;
+  background-color:transparent;
+  outline: none;
+    border: none;
+    resize: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+    overflow: hidden; 
+    
+}
+.form .tag{
+  padding: 5px;
+  color: #00b7ff;
+  background-color: #00b7ff33;
+  font-weight: bold;
+  border-radius: 5px;
+
+  
+}
+ .form .tags{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 10px;
+ }
+.form .tags-row{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 10px;
+}
+.form .tags-row input{
+ width: 300px;
+ font-size: 17px;
+ background-color:transparent;
+ outline: none;
+   border: none;
+   resize: none;
+   color: white;
+}
+.form .bottom{
+  width: 100vw;
+  padding: 10px;
+display: flex;
+align-items: center;
+padding-left: 200px;
+position: fixed;
+bottom: 0;
+gap: 10px;
+}
+@media only screen and (max-width:1000px) {
+  .canvas{
+      margin-left: 0px;
+  }
+  .form .bottom {
+    padding-left: 10px;
+  
+  }
+}
+
+.form .bottom button{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  min-width:100px;
+  font-size: 18px;
+  background-color: hsl(231, 11%, 40%);
+  color: white;
+  cursor: pointer;
+}
+.form button.publish{
+  background-color: rgba(13, 255, 0, 0.321);
+  
+  
+}
+

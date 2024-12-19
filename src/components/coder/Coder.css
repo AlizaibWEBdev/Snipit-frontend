@@ -1,0 +1,56 @@
+.coder-profile{
+  width: 100vw;
+  overflow-x:hidden ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.coder-profile .card{
+  width: 100%;
+  max-width: 850px;
+  background-color: hsl(231, 11%, 20%) ;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.coder-profile .info{
+  background-color: #111;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+ .coder-profile .info .logo{
+  letter-spacing: 15px;
+  transform: translateY(-12px);
+  user-select: none;
+  
+ }
+.user-data{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: -60px;
+}
+
+.profile-img{
+  background-color: #059960;
+  color: #fff;
+  height:90px;
+  margin:10px;
+  width:90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+ 
+}
